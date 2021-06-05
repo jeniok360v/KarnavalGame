@@ -54,7 +54,7 @@ WinMain(HINSTANCE Instance,
 	int       ShowCode)
 {
 	WNDCLASSA WindowClass = {};
-	// CS_OWNDC ??
+	// CS_OWNDC, CS_HREDRAW, CS_VREDRAW ??
 	WindowClass.style = CS_OWNDC|CS_HREDRAW|CS_VREDRAW;
 	WindowClass.lpfnWndProc = MainWindowCallback;
 	WindowClass.hInstance = Instance;
