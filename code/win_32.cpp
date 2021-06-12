@@ -95,7 +95,7 @@ WinMain(HINSTANCE Instance,
 		// RegisterClassW fails
 	}
 	
-	return(0);
+	return 0;
 }
 
 
